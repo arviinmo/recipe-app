@@ -12,6 +12,7 @@ function Popular() {
 
   const getPopular = async () => {
     const check = localStorage.getItem("popular");
+    //if data is fetched from api don't fetch it again
     if (check) {
       setPopular(JSON.parse(check));
     } else {
