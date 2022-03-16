@@ -1,7 +1,11 @@
-import React from "react";
+import React from 'react'
 
 function Cuisine() {
-  return <div>Cuisine</div>;
+  return (
+    <div>
+        <h4>Cuisine</h4>
+    </div>
+  )
 }
 
-export default Cuisine;
+export default Cuisine
